@@ -3,6 +3,7 @@
     width: 200px;
     height: 2px;
 animation: rot 1s linear infinite;
+	position:absolute;
 }
 @keyframes rot{
     0%{
