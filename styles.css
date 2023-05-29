@@ -1,1 +1,23 @@
-/*  your css code here. If applicable */
+#line{
+    background-color: black;
+    width: 200px;
+    height: 2px;
+animation: rot 1s linear infinite;
+}
+@keyframes rot{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    20%{
+        transform: rotateZ(90deg);
+    }
+    40%{
+        transform: rotateZ(180deg);
+    }
+    60%{
+        transform: rotateZ(270deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
